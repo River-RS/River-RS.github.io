@@ -1,0 +1,72 @@
+<html>
+<head>
+<link href="format.css" rel="stylesheet" type="text/css">
+<h1>Design</h1>
+</head>
+
+<h2>Architecture design:</h2>
+<img src="Architecture_Subscribe_Publish.PNG", alt="Architecture model", width = "800", height="250">
+<p>Above is the Publish/Subscribe architecture design. One process is the user setting up the notification window for the specific platforms they want to highlight.
+<br>A seperate processs is reading in the notifications, which come from the CSV file and then are written to the notification window and buttons.</p>
+
+
+
+<h2>Overview of project</h2>
+	<ul>
+		<li>Create a central notification window for all incoming notifications to be shown.</li>
+		<li> Sits on the left side of the users’ screen by default and has 5 windows for 4 specific notification brands (canvas, discord, github, outlook, etc) and one “other” section.</li> 
+		<li>Will show the most recent notification (first~10 chars) and when clicked will expand to show all unseen notifications (~150 chars).</li>
+	</ul>
+
+<h2>CSV file</h2>
+	<ul>
+	<li>Making stock notifications</li>
+		<ul>
+		<li>eventually, for further testing, add full list of notifications</li>
+			<ul>
+			<li>G-mail, Github, Microsoft Exchange, Discord, Reddit, Instagram, Facebook, YouTube, Lyft, Uber, Google Drive, Steam, GroupMe</li>
+			</ul>
+		</ul>
+	<li>Reading in CSV file</li>
+	</ul>
+
+<h2>Notification window</h2>
+	<ul>
+	<li>Scroll bar</li>
+	<li>Formatting buttons</li>
+		<ul>
+		<li>Sizing, change on click</li>
+		<li>Logos</li>
+		</ul>
+	<li>Color</li>
+	<li>Opacity</li>
+	<li>Counter</li>
+	<li>Timestamp</li>
+	</ul>
+
+<h2>Buttons</h2>
+	<ul>
+	<li>Read in notifications, have "canvas"-es go with canvas, "discord"-es go with discord</li>
+	<li>Click to expand message, click again to resize back to small</li>
+	<li>Only show most recent notification (stack data object?), click to see all the notifications</li>
+		<ul><li>scroll bar?</li></ul>	
+	</ul>
+
+<h1>Future work</h1>
+<h2>Multi threading</h2>
+	<ul>
+	<li>Need more research</li>
+	<ul>
+		<li>"event dispatch" thread?</li>
+		<li>synchronized</li>
+	</ul>
+	<li>Would allow for reading in notifications without affecting buttons</li>
+	</ul>
+
+<h2>Menu for user setup</h2>
+<ul>
+	<li>Dropdown menus with platform options</li>
+	<li>Reset setup whenever user wants</li>
+</ul>
+
+</html>

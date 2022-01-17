@@ -1,0 +1,32 @@
+<html>
+<h4>1. Component Testing</h4>
+<br>
+<p>Component testing was done by making smaller test of ke cde tasks, such as csv file reading, creating buttons, clicking to exapand buttons, 
+implementing a scroll bar, and adding icons to the buttons. Each of these specific tasks were done with smaller code that was run seperatley 
+from the final project and developed with simplified problem sets until the mechanics were fully understood and the code was developed enough 
+to be grafted to the system.</p>
+<br>
+<h4>2. System Testing</h4>
+<br>
+<p>For testing the system, we focused on running relevant pieces of the code and commenting out others until the desired tasks (button "clicks" and 
+"unclicks" or scroll bar is sensative to trackpad). This prevented us from trying to fix too many problems at one, and we could identify where 
+the issue was much faster. This sort of incremental programming helped keep us on track, although it can take awhile if we wrote a lot of code and 
+only tested it at the end.</p>
+<br>
+<h4>3. Acceptance Testing</h4>
+<br>
+<p>Describe the system testing that you did that validated if features were considered accepted by the user. Describe how you used the acceptance criteria on 
+your user stories to drive your system testing. List your user stories (title only) and state whether or not they are accepted as completely implemented, 
+or not.</p>
+<br>
+<p>Most of this testing was having meetings where teammates used the system and discussed if it was meeting user needs. We highlighted how shortcut-freindly
+it was, how helpful the icons were, if the click to exapnd feature was clear enough.</p>
+<br>
+<p>Story 1 -- readable. Yes, parially implemented, need to consider colors for buttons to be more engaging</p>
+<p>Story 2 -- accaptable amt of info. Yes, fully implemented</p>
+<p>Story 3 -- customizeable. No, not implemented</p>
+<p>Story 4 -- click to take to website. No, not implemented</p>
+<p>Story 5 -- nonintrusive design. Yes, fully implemented</p>
+<p>Story 6 -- icons. Yes, fully implemented</p>
+<p>Story 7 -- window stays on screen. Yes, fully umplemented</p> 
+<p>Story 8 -- keyboard shortcuts. Yes, fully implemented</p>
